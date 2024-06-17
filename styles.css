@@ -462,4 +462,24 @@ textarea:focus::placeholder {
   .gallery-buttons {
     width: 40%;
   }
+
+  .reviews-content,
+  .about-content,
+  .gallery-content,
+  .services-content,
+  .contact-content {
+    width: 90%;
+  }
+
+  .about-me,
+  .services,
+  .contact {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .review {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
