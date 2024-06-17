@@ -86,8 +86,8 @@ img {
   width: 100%;
   background-color: rgb(255, 194, 228);
   /* padding-top: 10rem; */
-  padding-left: 3rem;
-  padding-right: 3rem;
+  /* padding-left: 3rem; */
+  /* padding-right: 3rem; */
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
@@ -142,6 +142,7 @@ img {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: auto 0;
 }
 
 .profile-img {
@@ -264,34 +265,24 @@ img {
 
 .cutting-colouring {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 70%;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
   margin: 0 auto;
 }
 
 .colouring,
-.cutting {
-  margin: 0 auto;
-}
-
-.colouring,
-.cutting {
+.cutting,
+.other {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .text-flex {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.other {
-  width: 40%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
 }
 
 .price {
@@ -428,10 +419,6 @@ textarea:focus::placeholder {
   .colouring,
   .other {
     gap: 2rem;
-  }
-
-  .other {
-    width: 70%;
   }
 
   form {
