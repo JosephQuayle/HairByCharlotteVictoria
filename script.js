@@ -19,21 +19,21 @@ let galleryImages = document.getElementsByClassName("gallery-image");
 
 //set1 images
 let imageCharlotte = new Image();
-imageCharlotte.src = "./images/charlotte.jpg";
+imageCharlotte.src = "/images/charlotte.jpg";
 
 //set2 images
 let set2Img1 = new Image();
-set2Img1.src = "./images/bald.jpeg";
+set2Img1.src = "/images/bald.jpeg";
 let set2Img2 = new Image();
-set2Img2.src = "./images/hand.jpg";
+set2Img2.src = "/images/hand.jpg";
 let set2Img3 = new Image();
-set2Img3.src = "./images/bloat.jpg";
+set2Img3.src = "/images/bloat.jpg";
 let set2Img4 = new Image();
-set2Img4.src = "./images/jazz.jpg";
+set2Img4.src = "/images/jazz.jpg";
 let set2Img5 = new Image();
-set2Img5.src = "./images/IBP.png";
+set2Img5.src = "/images/IBP.png";
 let set2Img6 = new Image();
-set2Img6.src = "./images/guardian.jpg";
+set2Img6.src = "/images/guardian.jpg";
 
 //set 1 array
 let set1 = [
