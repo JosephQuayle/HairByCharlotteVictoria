@@ -27,13 +27,13 @@ set2Img1.src = "./images/bald.jpeg";
 let set2Img2 = new Image();
 set2Img2.src = "./images/hand.jpg";
 let set2Img3 = new Image();
-set2Img3.src = "./images/bloat.jpg";
+set2Img3.src = "./images/bloat.JPG";
 let set2Img4 = new Image();
 set2Img4.src = "./images/jazz.jpg";
 let set2Img5 = new Image();
 set2Img5.src = "./images/IBP.png";
 let set2Img6 = new Image();
-set2Img6.src = "./images/guardian.jpg";
+set2Img6.src = "./images/guardian.JPG";
 
 //set 1 array
 let set1 = [
