@@ -198,7 +198,7 @@ img {
 .review {
   text-align: center;
   border: solid 3px rgb(255, 194, 228);
-  border: solid rgb(255, 246, 232) 3px;
+  border: solid rgb(0, 0, 0) 3px;
   border-radius: 10px;
   padding: 5rem;
   display: flex;
