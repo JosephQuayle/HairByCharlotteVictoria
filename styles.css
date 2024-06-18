@@ -23,7 +23,8 @@ nav {
   margin: 0 auto;
   padding: 3rem;
   font-size: 3rem;
-  background-color: rgb(255, 194, 228);
+  /* background-color: rgb(255, 194, 228); */
+  background-color: rgb(255, 246, 232);
 }
 
 .nav-list {
@@ -42,9 +43,13 @@ nav {
   /* font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal; */
-  font-family: "Lobster", sans-serif;
+  /* font-family: "Lobster", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal; */
+  font-family: "Old Standard TT", serif;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  /* font-style: italic; */
   font-size: 3rem;
 }
 
@@ -66,9 +71,10 @@ li {
 
 .hero h1 {
   font-family: "Pacifico", cursive;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 6rem;
+  font-family: "Playfair Display", serif;
 }
 
 .bee-img-container {
@@ -85,6 +91,7 @@ img {
 .contact {
   width: 100%;
   background-color: rgb(255, 194, 228);
+  background-color: rgb(255, 246, 232);
   /* padding-top: 10rem; */
   /* padding-left: 3rem; */
   /* padding-right: 3rem; */
@@ -116,15 +123,19 @@ img {
   /* font-weight: 400;
   font-family: "Pacifico", cursive;
   font-style: normal; */
-  font-family: "Lobster", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  /* font-family: "Lobster", sans-serif; */
+  font-family: "Old Standard TT", serif;
+  font-weight: 600;
+  font-style: italic;
   font-size: 5rem;
+  font-family: "Playfair Display", serif;
 }
 
 .services-content h3 {
   font-family: "Lobster", sans-serif;
-  font-weight: 400;
+  font-family: "Playfair Display", serif;
+
+  font-weight: 800;
   font-style: normal;
   font-size: 3rem;
 }
@@ -187,6 +198,7 @@ img {
 .review {
   text-align: center;
   border: solid 3px rgb(255, 194, 228);
+  border: solid rgb(255, 246, 232) 3px;
   border-radius: 10px;
   padding: 5rem;
   display: flex;
@@ -242,6 +254,7 @@ img {
 
 .arrow button:hover {
   background-color: rgb(255, 194, 228);
+  background-color: rgb(255, 246, 232);
 }
 
 #leftArrow,
